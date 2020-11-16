@@ -6,7 +6,7 @@ class Teacher < User
 
   def teach
     random = KNOWLEDGE.sample(1)
-    p random
+    p random.to_s
   end
   
   
