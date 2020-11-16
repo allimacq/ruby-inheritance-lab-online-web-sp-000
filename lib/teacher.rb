@@ -6,7 +6,7 @@ class Teacher < User
 
   def teach
     #@knowledge = KNOWLEDGE
-    KNOWLEDGE.sample(1)
+    puts KNOWLEDGE.sample(1)
    
   end
   
