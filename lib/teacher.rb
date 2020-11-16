@@ -4,7 +4,6 @@ class Teacher < User
 
   def teach
     random = KNOWLEDGE.sample(1).join
-    #p random
   end
   
   
